@@ -34,3 +34,7 @@ Without a key, the interface uses a safe scripted response so the demo remains p
 ```bash
 npm run build
 ```
+
+The repository includes `vercel.json` so Vercel uses the native Next.js build
+instead of the Cloudflare Sites build. This produces the `.next` deployment
+manifests required by Vercel while preserving the Sites workflow locally.
